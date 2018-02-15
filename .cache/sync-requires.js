@@ -10,7 +10,7 @@ exports.components = {
   "component---cache-dev-404-page-js": preferDefault(require("/Users/bwalker/Downloads/art/site/gatsby-starter-1/.cache/dev-404-page.js")),
   "component---src-pages-404-js": preferDefault(require("/Users/bwalker/Downloads/art/site/gatsby-starter-1/src/pages/404.js")),
   "component---src-pages-index-js": preferDefault(require("/Users/bwalker/Downloads/art/site/gatsby-starter-1/src/pages/index.js")),
-  "component---src-pages-page-2-js": preferDefault(require("/Users/bwalker/Downloads/art/site/gatsby-starter-1/src/pages/page-2.js"))
+  "component---src-pages-plot-synopsis-js": preferDefault(require("/Users/bwalker/Downloads/art/site/gatsby-starter-1/src/pages/plot-synopsis.js"))
 }
 
 exports.json = {
@@ -21,7 +21,7 @@ exports.json = {
   "layout-index.json": require("/Users/bwalker/Downloads/art/site/gatsby-starter-1/.cache/json/layout-index.json"),
   "index.json": require("/Users/bwalker/Downloads/art/site/gatsby-starter-1/.cache/json/index.json"),
   "layout-index.json": require("/Users/bwalker/Downloads/art/site/gatsby-starter-1/.cache/json/layout-index.json"),
-  "page-2.json": require("/Users/bwalker/Downloads/art/site/gatsby-starter-1/.cache/json/page-2.json"),
+  "plot-synopsis.json": require("/Users/bwalker/Downloads/art/site/gatsby-starter-1/.cache/json/plot-synopsis.json"),
   "layout-index.json": require("/Users/bwalker/Downloads/art/site/gatsby-starter-1/.cache/json/layout-index.json"),
   "404-html.json": require("/Users/bwalker/Downloads/art/site/gatsby-starter-1/.cache/json/404-html.json")
 }

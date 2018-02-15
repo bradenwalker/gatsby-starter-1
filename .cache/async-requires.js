@@ -5,7 +5,7 @@ exports.components = {
   "component---cache-dev-404-page-js": require("gatsby-module-loader?name=component---cache-dev-404-page-js!/Users/bwalker/Downloads/art/site/gatsby-starter-1/.cache/dev-404-page.js"),
   "component---src-pages-404-js": require("gatsby-module-loader?name=component---src-pages-404-js!/Users/bwalker/Downloads/art/site/gatsby-starter-1/src/pages/404.js"),
   "component---src-pages-index-js": require("gatsby-module-loader?name=component---src-pages-index-js!/Users/bwalker/Downloads/art/site/gatsby-starter-1/src/pages/index.js"),
-  "component---src-pages-page-2-js": require("gatsby-module-loader?name=component---src-pages-page-2-js!/Users/bwalker/Downloads/art/site/gatsby-starter-1/src/pages/page-2.js")
+  "component---src-pages-plot-synopsis-js": require("gatsby-module-loader?name=component---src-pages-plot-synopsis-js!/Users/bwalker/Downloads/art/site/gatsby-starter-1/src/pages/plot-synopsis.js")
 }
 
 exports.json = {
@@ -16,7 +16,7 @@ exports.json = {
   "layout-index.json": require("gatsby-module-loader?name=path---!/Users/bwalker/Downloads/art/site/gatsby-starter-1/.cache/json/layout-index.json"),
   "index.json": require("gatsby-module-loader?name=path---index!/Users/bwalker/Downloads/art/site/gatsby-starter-1/.cache/json/index.json"),
   "layout-index.json": require("gatsby-module-loader?name=path---!/Users/bwalker/Downloads/art/site/gatsby-starter-1/.cache/json/layout-index.json"),
-  "page-2.json": require("gatsby-module-loader?name=path---page-2!/Users/bwalker/Downloads/art/site/gatsby-starter-1/.cache/json/page-2.json"),
+  "plot-synopsis.json": require("gatsby-module-loader?name=path---plot-synopsis!/Users/bwalker/Downloads/art/site/gatsby-starter-1/.cache/json/plot-synopsis.json"),
   "layout-index.json": require("gatsby-module-loader?name=path---!/Users/bwalker/Downloads/art/site/gatsby-starter-1/.cache/json/layout-index.json"),
   "404-html.json": require("gatsby-module-loader?name=path---404-html!/Users/bwalker/Downloads/art/site/gatsby-starter-1/.cache/json/404-html.json")
 }

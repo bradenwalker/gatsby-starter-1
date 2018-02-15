@@ -8,7 +8,7 @@
       "component": "/Users/bwalker/Downloads/art/site/gatsby-starter-1/.cache/dev-404-page.js",
       "componentChunkName": "component---cache-dev-404-page-js",
       "context": {},
-      "updatedAt": 1518715956914,
+      "updatedAt": 1518732391775,
       "pluginCreator___NODE": "Plugin dev-404-page",
       "pluginCreatorId": "Plugin dev-404-page",
       "componentPath": "/Users/bwalker/Downloads/art/site/gatsby-starter-1/.cache/dev-404-page.js",
@@ -17,7 +17,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "078c1cff19ffd42db700fe090dcd50f4",
+        "contentDigest": "c4248cb4be0a4afaf71c90f69952c2f0",
         "owner": "internal-data-bridge"
       }
     },
@@ -368,12 +368,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-02-15T17:32:33.180Z",
+      "buildTime": "2018-02-15T22:06:28.020Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "81e5b00b1ad0884a9bee38bd81eed7da",
+        "contentDigest": "579e06de64e4c7aeb2fd53ee42187aa7",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -386,7 +386,7 @@
       "component": "/Users/bwalker/Downloads/art/site/gatsby-starter-1/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
-      "updatedAt": 1518715956924,
+      "updatedAt": 1518732391784,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/bwalker/Downloads/art/site/gatsby-starter-1/src/pages/404.js",
@@ -395,7 +395,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "ebb3405646fc6dbbe5aebe0a8986179c",
+        "contentDigest": "601d5475860e6995b97c51b0e4bdb9d0",
         "owner": "internal-data-bridge"
       }
     },
@@ -407,7 +407,7 @@
       "component": "/Users/bwalker/Downloads/art/site/gatsby-starter-1/src/pages/index.js",
       "componentChunkName": "component---src-pages-index-js",
       "context": {},
-      "updatedAt": 1518715956927,
+      "updatedAt": 1518732391790,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/bwalker/Downloads/art/site/gatsby-starter-1/src/pages/index.js",
@@ -416,28 +416,28 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "1fcd5693a9618d396665f1b331d64ffe",
+        "contentDigest": "41a289da2bc6cc69824e4b6988e22ab1",
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /page-2/": {
+    "SitePage /plot-synopsis/": {
       "layout": "index",
-      "jsonName": "page-2.json",
-      "internalComponentName": "ComponentPage2",
-      "path": "/page-2/",
-      "component": "/Users/bwalker/Downloads/art/site/gatsby-starter-1/src/pages/page-2.js",
-      "componentChunkName": "component---src-pages-page-2-js",
+      "jsonName": "plot-synopsis.json",
+      "internalComponentName": "ComponentPlotSynopsis",
+      "path": "/plot-synopsis/",
+      "component": "/Users/bwalker/Downloads/art/site/gatsby-starter-1/src/pages/plot-synopsis.js",
+      "componentChunkName": "component---src-pages-plot-synopsis-js",
       "context": {},
-      "updatedAt": 1518715956929,
+      "updatedAt": 1518732391792,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "/Users/bwalker/Downloads/art/site/gatsby-starter-1/src/pages/page-2.js",
-      "id": "SitePage /page-2/",
+      "componentPath": "/Users/bwalker/Downloads/art/site/gatsby-starter-1/src/pages/plot-synopsis.js",
+      "id": "SitePage /plot-synopsis/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "8c2e0f3756e2368a06a0a696d92b6029",
+        "contentDigest": "1e0df0422b111d2eb59ed348e2824849",
         "owner": "internal-data-bridge"
       }
     },
@@ -449,7 +449,7 @@
       "component": "/Users/bwalker/Downloads/art/site/gatsby-starter-1/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
-      "updatedAt": 1518715956935,
+      "updatedAt": 1518732391799,
       "pluginCreator___NODE": "Plugin prod-404",
       "pluginCreatorId": "Plugin prod-404",
       "componentPath": "/Users/bwalker/Downloads/art/site/gatsby-starter-1/src/pages/404.js",
@@ -458,7 +458,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "3a626252962360a37c24324512a43629",
+        "contentDigest": "1b5b5779c739d7e13e2e6dc7a6684aa5",
         "owner": "internal-data-bridge"
       }
     }
