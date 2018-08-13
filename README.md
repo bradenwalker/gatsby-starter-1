@@ -1,106 +1,157 @@
-<p align="center">
-  <a href="https://next.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby's default starter
-</h1>
+![](https://i.imgur.com/xPj0ICn.png)
 
-Kick off your project with this default boilerplate. This barebones starter ships with the main Gatsby configuration files you might need. 
+# Gatsby Starter Portfolio: Emilia
 
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://next.gatsbyjs.org/docs/gatsby-starters/)._
+A portfolio starter for [Gatsby](https://www.gatsbyjs.org/). The target audience are designers and photographers.
 
-## 🚀 Quick start
+[Demo Website](https://portfolio-emilia.netlify.com/)
 
-1.  **Install the Gatsby CLI.**
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/LeKoArts/gatsby-starter-portfolio-emilia)
 
-    The Gatsby CLI helps you create new sites using Gatsby starters (like this one!)
+- Focus on big images
+- Dark theme
+- Image grid powered by CSS Grid
+- One-Page layout with sub-pages for projects
 
-    ```sh
-    # install the Gatsby CLI globally
-    npm install -g gatsby-cli
-    ```
+## Why?
 
-2.  **Create a Gatsby site.**
+If you want to quickly bootstrap a design/photography portfolio or use it as a foundation for your personal site the *gatsby-starter-portfolio* are a perfect fit for you! The project's goal is to offer minimalistic and fast websites. 
 
-    Use the Gatsby CLI to create a new site, specifying the default starter.
+I hope you like my starters and create something awesome! To see some of my work you can visit my [website](https://www.lekoarts.de) or support me on [Patreon](https://www.patreon.com/lekoarts) to get some neat rewards (4K images, project files, tutorial insights).
 
-    ```sh
-    # create a new Gatsby site using the default starter
-    gatsby new my-default-starter
-    ```
+Also check out the other *gatsby-starter-portfolio*:
+- [gatsby-starter-portfolio-emma](https://github.com/LeKoArts/gatsby-starter-portfolio-emma)
+- [gatsby-starter-portfolio-bella](https://github.com/LeKoArts/gatsby-starter-portfolio-bella)
+- [gatsby-starter-portfolio-cara](https://github.com/LeKoArts/gatsby-starter-portfolio-cara)
 
-3.  **Start developing.**
+Check out the [Gatsby Starter Portfolio Overview](https://gatsby-starter-portfolio.netlify.com/)!
 
-    Navigate into your new site’s directory and start it up.
+## Features
 
-    ```sh
-    cd my-default-starter/
-    gatsby develop
-    ```
+- Configurable
+    - Use the SiteConfig.js to easily change the most important information
+    - Google Fonts
+    - Use the Style.js to configure your CSS
+- Projects in Markdown
+- Element Transitions with [React Overdrive](https://github.com/berzniz/react-overdrive)
+- Image Grid with CSS Grid
+- [HeroPatterns](http://www.heropatterns.com/) Header
+- Styled components
+- Google Analytics Support
+- SEO
+    - Sitemap
+    - Schema.org JSONLD
+    - OpenGraph Tags
+    - Twitter Tags
+- Offline Support
+- WebApp Manifest Support
+- Typography.js
+- Responsive images
+    - The right image size for every screen size
+    - Traced SVG Loading (Lazy-Loading)
+    - WebP Support
 
-4.  **Open the source code and start editing!**
+## Getting Started
 
-    Your site is now running at `http://localhost:8000`!
-    
-    *Note: You'll also see a second link: `http://localhost:8000___graphql`. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://next.gatsbyjs.org/tutorial/part-five/#introducing-graphiql).*
-    
-    Open the the `my-default-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
-    
-## 🧐 What's inside?
+Check your development environment! You'll need [Node.js](https://nodejs.org/en/), the [Gatsby CLI](https://www.gatsbyjs.org/docs/) and [node-gyp](https://github.com/nodejs/node-gyp#installation) installed. The official Gatsby website also lists two articles regarding this topic:
+- [Gatsby on Windows](https://www.gatsbyjs.org/docs/gatsby-on-windows/)
+- [Check your development environment](https://www.gatsbyjs.org/tutorial/part-one/#check-your-development-environment)
 
-A quick look at the top-level files and directories you'll see in a Gatsby project.
+To copy and install this starter run this command (with "project-name" being the name of your folder you wish to install it in):
 
-    .
-    ├── node_modules
-    ├── src
-    ├── .gitignore
-    ├── .prettierrc
-    ├── gatsby-browser.js
-    ├── gatsby-config.js
-    ├── gatsby-node.js
-    ├── gatsby-ssr.js
-    ├── LICENSE
-    ├── package-lock.json
-    ├── package.json
-    ├── README.md
-    └── yarn.lock
+```
+gatsby new project-name https://github.com/LeKoArts/gatsby-starter-portfolio-emilia
+npm run dev
+```
 
-  1.  **`/node_modules`**: The directory where all of the modules of code that your project depends on (npm packages) are automatically installed.  
-  
-  2.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser), like your site header, or a page template. “Src” is a convention for “source code”.
-  
-  3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
-  
-  4.  **`.prettierrc`**: This is a configuration file for a tool called [Prettier](https://prettier.io/), which is a tool to help keep the formatting of your code consistent.
-  
-  5.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://next.gatsbyjs.org/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
-  
-  6.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://next.gatsbyjs.org/docs/gatsby-config/) for more detail).
-  
-  7.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby node APIs](https://next.gatsbyjs.org/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
-  
-  8.  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://next.gatsbyjs.org/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
-  
-  9.  **`LICENSE`**: Gatsby is licensed under the MIT license.
-  
-  10.  **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. (You won’t change this file directly).
-  
-  11.  **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
-  
-  12.  **`README.md`**: A text file containing useful reference information about your project.
-  
-  13.  **`yarn.lock`**: [Yarn](https://yarnpkg.com/) is a package manager alternative to npm. You can use either yarn or npm, though all of the Gatsby docs reference npm.  This file serves essentially the same purpose as `package-lock.json`, just for a different package management system.
+### Adding a new project
+- Create a new folder in ``content/projects`` with the current date (Format: YYYY-MM-DD)
+- Create a new markdown file, add the frontmatter (use the same date format)
+    - Reference the image you want to be shown in the grid and as the first image on the project as ``cover``
+- Add your other images below the frontmatter (you can also include text)
 
-## 🎓 Learning Gatsby
+If you're still unsure have a look at the already existing examples.
 
-Looking for more guidance? Full documentation for Gatsby lives [on the website](https://next.gatsbyjs.org/). Here are some places to start:
+### Adding new features/plugins
 
--   **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://next.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
+You can add other features by having a look at the offical [plugins page](https://www.gatsbyjs.org/docs/plugins/)
 
--   **To dive straight into code samples head [to our documentation](https://next.gatsbyjs.org/docs/).** In particular, check out the “Guides”, API reference, and “Advanced Tutorials” sections in the sidebar.
+### Building your site
 
-## 💫 Deploy
+```
+npm run build
+```
+Copy the content of the ``public`` folder to your webhost or use a website like Netlify which automates that for you.
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+## Configuration
+
+You can configure your setup in ``config/site.js``:
+
+```JS
+module.exports = {
+  pathPrefix: '/', // Prefix for all links. If you deploy your site to example.com/portfolio your pathPrefix should be "portfolio"
+
+  siteTitle: 'Emilia', // Navigation and Site Title
+  siteTitleAlt: 'Emilia - Gatsby Starter Portfolio', // Alternative Site title for SEO
+  siteUrl: 'https://portfolio-emilia.netlify.com', // Domain of your site. No trailing slash!
+  siteLanguage: 'en', // Language Tag on <html> element
+  siteLogo: '/logos/logo-1024.png', // Used for SEO and manifest
+  siteDescription: 'Dark One-Page portfolio with cards & detailed project views',
+
+  siteFBAppID: '123456789', // Facebook App ID
+  userTwitter: '@emilia', // Twitter Username
+  ogSiteName: 'emilia', // Facebook Site Name
+  ogLanguage: 'de_DE', // og:language
+  googleAnalyticsID: 'UA-12345689-1',
+
+  // Manifest and Progress color
+  themeColor: '#3498DB',
+  backgroundColor: '#2b2e3c',
+
+  // Settings for typography.js
+  headerFontFamily: 'Open Sans',
+  bodyFontFamily: 'Space Mono',
+  baseFontSize: '16px',
+
+  // Your information
+  avatar: '/logos/social.png',
+  name: 'LekoArts',
+  location: 'Germany',
+  socialMedia: [
+    {
+      url: 'https://www.facebook.com/lekoarts.de',
+      name: 'Facebook',
+    },
+    {
+      url: 'https://www.instagram.com/lekoarts.de',
+      name: 'Instagram',
+    },
+  ],
+};
+```
+
+You can also configure the styling by editing the ``config/theme.js`` file:
+
+```JS
+// You can grab your own pattern here:
+// http://www.heropatterns.com/
+
+module.exports = {
+  bgPattern: `data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%2316191f' fill-opacity='0.8'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E`,
+  colors: {
+    bg: '#16191f',
+    color: 'white',
+    secondary: '#b6b6b6',
+    link: '#328bff',
+    linkHover: '#79a8ff',
+  },
+  maxWidths: {
+    general: '1600px',
+    project: 1600,
+  },
+  gridColumns: 2,
+  contentPadding: '1.0875rem',
+};
+```
+
+**Attention:** You also need to edit ``static/robots.txt`` to include your domain!
